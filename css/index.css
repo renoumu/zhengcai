@@ -30,7 +30,7 @@ html,body{
 }
 .nav_top .nav_top_list{
 	position: absolute;
-	right: 370px;
+	right: 300px;
 }
 .nav_top .nav_top_list li{
 	float: left;
@@ -42,7 +42,7 @@ html,body{
 }
 .nav_top .nav_top_news{
 	position: absolute;
-	right: 185px;
+	right: 125px;
 	top: 10px;
 }
 .nav_top .nav_top_news a{
@@ -112,18 +112,6 @@ html,body{
 	float: left;
 	margin: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 .content .icon{
 	height: 117px;
 	background: #fcfcfc;
@@ -139,7 +127,7 @@ html,body{
 	float: left;
 	text-align: center;
 	padding-right: 40px;
-	color: red;
+	color:#979696;
 }
 .content .icon  ul li img{
 	margin-bottom: 8px;
@@ -230,12 +218,6 @@ html,body{
 .service_right .right3,.service_right .right4{
 	padding-top: 5px;
 }
-
-
-
-
-
-
 /*footer*/
 .footer{
 	height: 219px;
@@ -302,3 +284,95 @@ html,body{
 	top: 0px;
 	right: 223px;
 }
+
+/*nav导航下拉效果start*/
+.nav{
+	z-index: 1;
+}
+#down_nav1{
+	position: absolute;
+    top: 40px;
+    left: 0px;
+    z-index: 2;
+    background: white;
+    border: 1px dotted skyblue;
+    display: none;
+}
+#down_nav1 div,#down_nav2 div,#down_nav3 div,#down_nav4 div,#down_nav5 div{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+#down_nav2{
+	position: absolute;
+    top: 40px;
+    left: 100px;
+    z-index: 2;
+    background: white;
+    border: 1px dotted skyblue;
+    display: none;
+}
+#down_nav3{
+	position: absolute;
+    top: 40px;
+    left: 200px;
+    z-index: 2;
+    background: white;
+    border: 1px dotted skyblue;
+    display: none;
+}
+#down_nav4{
+	position: absolute;
+    top: 40px;
+    left: 300px;
+    z-index: 2;
+    background: white;
+    border: 1px dotted skyblue;
+    display: none;
+}
+#down_nav5{
+	position: absolute;
+    top: 40px;
+    left: 400px;
+    z-index: 2;
+    background: white;
+    border: 1px dotted skyblue;
+    display: none;
+}
+.top .nav ul li .navcolor{
+	color: black;
+}
+/*nav导航下拉效果end*/
+
+/*service_right效果start*/
+.right1,.right2,.right3,.right4{
+	position: relative;
+}
+.right1 div,.right2 div,.right3 div,.right4 div{
+	position: absolute;
+	width: 132px;
+	height: 143px;
+	z-index: 2;
+	color: red;
+	background: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 143px;
+	filter:alpha(opacity=50);
+	opacity: 0.5;
+	display: none;
+}
+.right1 div,.right2 div{
+	top: 0px;
+	left: 0px;
+}
+.right3 div,.right4 div{
+	top: 5px;
+	left: 0px;
+}
+.right2 div,.right4 div{
+	left: 5px;
+}
+/*service_right效果end*/

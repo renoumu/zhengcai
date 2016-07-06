@@ -32,8 +32,7 @@ window.onload = function(){
 		changeDots(page);
 		if (page == dots.length-1) {
 			page = -1;
-		}
-		
+		}	
 	}
 	function changeDots(index){
 		for (var i = 0; i < dots.length; i++) {
