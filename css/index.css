@@ -4,6 +4,7 @@ html,body{
 	max-width: 1263px;
 	min-width: 1263px;
 	margin: auto;
+	background: black;
 }
 .clear{zoom:1;}
 .clear:after{
@@ -132,7 +133,7 @@ html,body{
 .content .icon  ul{
 	position: absolute;
 	top: 15px;
-	right: 172px;
+	right: 100px;
 }
 .content .icon  ul li{
 	float: left;
