@@ -5,7 +5,6 @@ $(function() {
 	$('.nav_top_list>li').mouseout(function(event) {
 		$(this).css('color', '#bbbbbc');
 	});
-
 	$('#nav_list>li').mousemove(function(event) {
 		$(this).css('color', 'red');;
 	});
@@ -19,3 +18,5 @@ $(function() {
 		$(this).css('color', 'red');
 	});
 });
+
+
