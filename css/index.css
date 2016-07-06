@@ -2,6 +2,7 @@ html,body{
 	padding: 0px;
 	margin: 0px;
 	max-width: 1263px;
+	min-width: 1263px;
 	margin: auto;
 }
 .clear{zoom:1;}
